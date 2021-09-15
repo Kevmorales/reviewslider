@@ -100,6 +100,7 @@ prevBtn.addEventListener("click", function() {
 
 randomBtn.addEventListener("click", function() {
 
+  // extra säkerhet för randomness
   secureRandom = Math.floor(Math.random() * reviews.length);
  if(secureRandom === currentItem) {
 
